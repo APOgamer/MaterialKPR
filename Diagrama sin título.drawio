@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T22:41:52.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="8FNNh5a1Ko9CfhCsxEHn" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T22:48:45.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="GjgYIwoP-zLdnyg3BzH4" version="24.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1988" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4310" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -155,8 +155,8 @@
         <mxCell id="QXl1rqGvK_N5IzJprdL_-53" value="Misma&lt;div&gt;altura(columna)&lt;/div&gt;&lt;div&gt;quiere decir, que los procesos/acciones&lt;/div&gt;&lt;div&gt;se encuentran en la misma página mostrabla&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="890" y="20" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QXl1rqGvK_N5IzJprdL_-55" value="Lista de permisos del usuario" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1810" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-55" value="Otorgar Permiso" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1860" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QXl1rqGvK_N5IzJprdL_-56" value="Página que muestra (en primer plano) la información general del usuario" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1540" y="130" width="180" height="120" as="geometry" />
@@ -172,6 +172,45 @@
         </mxCell>
         <mxCell id="QXl1rqGvK_N5IzJprdL_-60" value="&lt;div&gt;Lista de permisos&lt;/div&gt;&lt;div&gt;Agregar permiso&lt;/div&gt;&lt;div&gt;Eliminar permiso&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="QXl1rqGvK_N5IzJprdL_-58">
           <mxGeometry x="40" y="240" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.981;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QXl1rqGvK_N5IzJprdL_-56" target="QXl1rqGvK_N5IzJprdL_-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="180" as="sourcePoint" />
+            <mxPoint x="1830" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QXl1rqGvK_N5IzJprdL_-34" target="QXl1rqGvK_N5IzJprdL_-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="220" as="sourcePoint" />
+            <mxPoint x="1540" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-64" value="Revocar Permiso" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1860" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-65" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QXl1rqGvK_N5IzJprdL_-56" target="QXl1rqGvK_N5IzJprdL_-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="240" as="sourcePoint" />
+            <mxPoint x="1830" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-66" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.02;exitY=0.62;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QXl1rqGvK_N5IzJprdL_-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="140" as="sourcePoint" />
+            <mxPoint x="2120" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-68" value="Interfaz Lista de permisos otorgables" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2120" y="20" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-71" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.597;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QXl1rqGvK_N5IzJprdL_-64" target="QXl1rqGvK_N5IzJprdL_-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="250" as="sourcePoint" />
+            <mxPoint x="2119.9999999999995" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-72" value="Lista de permisos mostrada para eliminar con un boton" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2140" y="205" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
