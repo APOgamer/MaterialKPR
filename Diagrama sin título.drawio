@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T22:34:29.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="vdFDi2hXQlb52LQ1AGmp" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T22:41:52.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="8FNNh5a1Ko9CfhCsxEHn" version="24.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1988" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
             <mxPoint x="1080" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QXl1rqGvK_N5IzJprdL_-34" value="Adm" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-34" value="Administrar usuario" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1350" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QXl1rqGvK_N5IzJprdL_-35" value="Lista&lt;div&gt;de empleados&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -154,6 +154,24 @@
         </mxCell>
         <mxCell id="QXl1rqGvK_N5IzJprdL_-53" value="Misma&lt;div&gt;altura(columna)&lt;/div&gt;&lt;div&gt;quiere decir, que los procesos/acciones&lt;/div&gt;&lt;div&gt;se encuentran en la misma página mostrabla&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="890" y="20" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-55" value="Lista de permisos del usuario" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1810" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-56" value="Página que muestra (en primer plano) la información general del usuario" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1540" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-57" value="Segundo&lt;div&gt;showcase&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1560" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-58" value="Especificación de lo mostrado&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1530" y="280" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-59" value="Datos:&lt;div&gt;Nombre Completo&lt;/div&gt;&lt;div&gt;Nacimiento&lt;/div&gt;&lt;div&gt;Sueldo?&lt;/div&gt;&lt;div&gt;Tiempo en la empresa&lt;/div&gt;&lt;div&gt;DNI&lt;/div&gt;&lt;div&gt;Encargo&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="QXl1rqGvK_N5IzJprdL_-58">
+          <mxGeometry x="40" y="60" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QXl1rqGvK_N5IzJprdL_-60" value="&lt;div&gt;Lista de permisos&lt;/div&gt;&lt;div&gt;Agregar permiso&lt;/div&gt;&lt;div&gt;Eliminar permiso&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="QXl1rqGvK_N5IzJprdL_-58">
+          <mxGeometry x="40" y="240" width="120" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
